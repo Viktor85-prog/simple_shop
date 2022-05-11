@@ -23,14 +23,11 @@ const images = () => {
             bigImage.setAttribute('src', path)
             bigImage.setAttribute('width', (window.screen.width / 3))
             document.body.style.overflow = "hidden"
-
-
         }
         if (target && target.matches('div.popup')) {
             imgPopup.style.display = 'none'
             document.body.style.overflow = ""
         }
-
 
     })
 }
